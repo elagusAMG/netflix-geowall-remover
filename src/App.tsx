@@ -1,12 +1,9 @@
-import { Button } from './components/ui/button';
+import ChromeExtension from "@/components/chrome-extension";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline bg-red-300">Hello world!</h1>
-      <div className="flex flex-col items-center justify-center min-h-svh">
-        <Button>Click me</Button>
-      </div>
+      <ChromeExtension />
     </>
   );
 }
